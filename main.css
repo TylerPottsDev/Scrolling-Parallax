@@ -1,0 +1,81 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", Helvetica, sans-serif;
+}
+
+body {
+  background: #F3F3F3;
+  min-height: 4000px;
+}
+
+header {
+  overflow: hidden;
+  position: relative;
+  height: 600px;
+  background-image: url("./images/background.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+header .title {
+  display: inline-block;
+  background: #171717;
+  padding: 5px 10px;
+  color: #FFF;
+  font-size: 60px;
+  font-weight: 300;
+}
+header .title strong {
+  color: #FFCE00;
+  font-weight: 900;
+}
+header nav {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+header nav .nav-link {
+  color: #f3f3f3;
+  padding: 10px 15px;
+  border-bottom: 4px solid transparent;
+  text-decoration: none;
+}
+header nav .nav-link:hover {
+  border-bottom-color: #FFCE00;
+}
+header .yt-pin {
+  position: absolute;
+  left: 200px;
+  bottom: -250px;
+  width: 200px;
+  height: 300px;
+  background-color: #FFCE00;
+}
+header .yt-pin p {
+  color: #171717;
+  text-align: center;
+  line-height: 50px;
+  font-weight: 700;
+}
+
+#about {
+  width: 100%;
+  max-width: 768px;
+  margin: 0 auto;
+  padding: 15px;
+  text-align: center;
+}
+#about h3 {
+  font-size: 32px;
+  font-weight: 700;
+  color: #171717;
+  margin-bottom: 20px;
+}
